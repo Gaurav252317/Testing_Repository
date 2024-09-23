@@ -10,7 +10,7 @@ const connectToQueue = async () => {
   await channel.assertQueue(queue, { durable: false });
 
   channel.consume(queue, (msg) => {
-    console.log(msg, "Msg Data");
+    console.log(msg, "Msg Data", 'Hi Added Text');
     console.log(msg.content.toString(), "content");
     channel.ack(msg);
   });
