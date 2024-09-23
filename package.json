@@ -1,0 +1,10 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Saurav Kumar Pandey",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
